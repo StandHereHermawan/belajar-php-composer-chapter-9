@@ -9,7 +9,7 @@ class Customer
         # constructor
     }
 
-    public function sayHello(string $name): string
+    public function sayHello(?string $name = "Guest"): string
     {
         return "Hello $name! my name is $this->name";
     }
